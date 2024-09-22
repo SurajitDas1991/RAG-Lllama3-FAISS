@@ -17,6 +17,7 @@
 
 - **create_retrieval_chain** is then used to apply **create_history_aware_retriever** and **create_stuff_documents_chain** in sequence. It has input keys input and chat_history, and includes input, chat_history, context, and answer in its output.
 
+  ![Visual image of retriever + chaining](images/image.png)
 
 ### Code setup
 
